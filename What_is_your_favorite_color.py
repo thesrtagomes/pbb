@@ -1,0 +1,5 @@
+print("Hi there!")
+name = input ("What is your name?") 
+print("Let's find out which color is your favorite.")
+color = input("Type here your favorite color:")
+print (name + ", Your favorite color according to our research is", + ". Congratulations! It is a beautiful color.")
