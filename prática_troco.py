@@ -1,0 +1,5 @@
+unidade = float(input('Digite o preço unitário do produto: '))
+quantidade = int(input('Quantidade comprada: '))
+dinheiro = float(input('Dinheiro recebido: '))
+troco = dinheiro - (unidade * quantidade)
+print(f'O seu troco é de R$ {troco:.2f}.')
